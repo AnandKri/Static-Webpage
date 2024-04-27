@@ -1,26 +1,27 @@
 body{
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+    background-color: rgb(23, 23, 23);
+    margin: none;
+    padding: none;
+    border: none;
 }
 
 .main{
-    background-color: #000000;
-    margin: 0px;
-    padding-left: 25%;
-    padding-right: 25%;
-    /* width: 750px; */
+    background:rgb(23, 23, 23);
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+.element_1{
+    /* background-color: #000000; */
+    margin: auto;
+    justify-content: center;
+    max-width: 725px;
 }
 
 .topnav {
-    position: absolute;
-    /* text-align: center; */
-    border: 1px solid black;
-    width: 750px;
-    background-color: #000000;
+    margin-top: 20px;
     overflow: hidden;
-    /* margin: 20px; */
-    /* padding: 13px; */
 }
 
 /* Style the links inside the navigation bar */
@@ -28,9 +29,8 @@ body{
     float: left;
     color: #989797;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
     padding: 10px;
-    /* margin-top: 50px; */
     text-decoration: none;
     font-size: 18px;
 }
@@ -43,84 +43,78 @@ body{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  /* background-color: #04AA6D; */
   color: white;
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
-  margin-top: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-.element_2{
-    border: 1px solid black;
+
+.container{
     justify-content: center;
-    text-align: left;
-    /* padding: 1px; */
+    margin: auto;
+    max-width: 725px;
 }
 
 .websiteName{
     color: white;
-    font-size: 150px;
-    padding-bottom: 1px;
-    margin-top: 100px;
+    font-size: 125px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding: 10px 0px 0px 0px;
     margin-bottom: 0px;
-    border: 1px solid black;
-    font-weight: 1000;
-    font-family: 'Poppins';
-    /* border-style: solid; */
-    /* border-color: #000000;  */
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
 }
 
-.element_3{
+.tagline{
     justify-content: center;
     text-align: left;
-    border: 1px solid black;
-    margin-bottom: 60px;
+    padding: none;
+    /* border: 1px solid black; */
+    margin: 0px 0px 60px 0px;
     font-weight: 500;
-    font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
     color: #989797;
-}
-
-.element_4{
-    border: 1px solid black;
-    padding: 7px;
-    margin: 0;
-    /* border-bottom: 1px solid white; */
 }
 
 .title{
     text-align: left;
     /* font-weight: 500; */
+    padding: 5px 0px 5px 2px;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
     color: white;
+    width: auto;
+}
+
+hr{
+    margin: 15px 0px 15px 0px;
+    padding: none;
+    border: none;
+    height: 1px;
+    background-color: #989797;
 }
 
 .date{
     float: right;
     /* font-weight: 300; */
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
     color: #989797;
 }
 
-hr{
-    color: #989797;
-    /* height: 0.1px; */
-}
-
-.element_5{
-    border: 1px solid black;
-}
 
 .copyright{
     text-align: center;
     justify-content: center;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
     color: #989797;
     padding-top: 50px;
     padding-bottom: 50px;
